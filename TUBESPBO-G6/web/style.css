@@ -1,0 +1,82 @@
+/* Mengatur seluruh elemen body */
+body {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center; /* Semua konten dalam body menjadi center */
+    background-color: #f8f9fa; /* Warna background agar terlihat lebih rapi */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Utama */
+h1 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    color: #343a40; /* Warna abu-abu tua untuk teks */
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+/* Header Login */
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #495057;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+/* Container styling */
+.container {
+    max-width: 500px; /* Lebar maksimum container */
+    margin: 0 auto; /* Center container secara horizontal */
+    padding: 20px;
+    background-color: #ffffff; /* Background putih di container */
+    border: 1px solid #dee2e6; /* Garis tepi abu-abu tipis */
+    border-radius: 8px; /* Membulatkan sudut container */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow lembut */
+}
+
+/* Styling untuk input fields */
+input[type="text"], 
+input[type="password"] {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1rem;
+    text-align: center; /* Teks dalam input center */
+}
+
+/* Tombol Submit */
+.btn-primary {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 8px 20px;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 5px;
+}
+
+/* Tombol hover efek */
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Alert styling */
+.alert {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    margin-bottom: 15px;
+}
+
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Nov 25, 2024, 12:22:57 AM
+    Author     : CHRISTIANA NAIDA P
+*/
+
